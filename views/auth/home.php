@@ -56,7 +56,7 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="public/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Ai grijă de tine!</h5>
@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-3.jpg" alt="Image">
+                    <img class="w-100" src="public/img/carousel-3.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Ai grijă de tine!</h5>
@@ -102,15 +102,15 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-    <script src="lib/twentytwenty/jquery.event.move.js"></script>
-    <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+    <script src="public/lib/wow/wow.min.js"></script>
+    <script src="public/lib/easing/easing.min.js"></script>
+    <script src="public/lib/waypoints/waypoints.min.js"></script>
+    <script src="public/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="public/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="public/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="public/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="public/lib/twentytwenty/jquery.event.move.js"></script>
+    <script src="public/lib/twentytwenty/jquery.twentytwenty.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="public/js/main.js"></script>
