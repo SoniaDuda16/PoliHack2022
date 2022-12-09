@@ -15,6 +15,7 @@ function tryToLogin($user, $password, $dbC){
         $pwd = mysqli_fetch_row($res);
         if($pwd[0] == md5($password)){
             $_SESSION['user'] = $user;
+            $_SESSION['level'] = 0;
             //$_SESSION['password'] = $password;
             return "";
         }
