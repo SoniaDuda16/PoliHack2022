@@ -2,10 +2,10 @@
       //but the project works with a local database, so there isnt' any information leak
       class dbCredit{
             public $db_host       = "localhost";
-            public $db_port       = "5432";
-            public $db_username   = "postgres";
-            public $db_password   = "admin";
-            public $db_name       = "weblogin";
+            public $db_port       = "";
+            public $db_username   = "root";
+            public $db_password   = "";
+            public $db_name       = "polihack";
         
             public $db_schema     = "public";
             public $db_usersTable = "users";
