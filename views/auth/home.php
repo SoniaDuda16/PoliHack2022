@@ -8,7 +8,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
+<<<<<<< HEAD
                 <a href="index.html" class="nav-item nav-link active">Acasă</a>
+=======
+                <a href="/index.php?page=acasa" class="nav-item nav-link active">Acasă</a>
+>>>>>>> ce9ab48f97b0fd0f4c047ad1cf890820a4ccc11d
                 <a href="/index.php?page=desprenoi" class="nav-item nav-link">Despre Noi</a>
                 <a href="/index.php?page=servicii" class="nav-item nav-link">Servicii</a>
             </div>
