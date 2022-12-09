@@ -20,12 +20,12 @@ height: 400px;
 margin-top: auto;
 margin-bottom: auto;
 width: 400px;
-background-color: rgba(70, 52, 52, 0.441) !important;
+background-color: #06a2da39 !important;
 }
 
 .text{
-    margin-top: 70px;
-    font-size: 60px;
+    height: 30px;
+    font-size: 15px;
     color: #ffffff;
     text-align: center;
 }
@@ -53,9 +53,17 @@ top: -45px;
 
 .input-group-prepend span{
 width: 50px;
-background-color: #70584d;
+height: 35px;
+background-color: #06A3DA;
 color: black;
 border:0 !important;
+}
+
+.form-control{
+    height: 35px;
+    margin: 2px;
+    /* padding-top: -1px !important; */
+    transform: translateY(-2px);
 }
 
 input:focus{
@@ -78,7 +86,7 @@ margin-right: 5px;
 
 .login_btn{
 color: black;
-background-color: #70584d;
+background-color: #06A3DA;
 width: 200px;
 }
 
@@ -93,5 +101,5 @@ color: rgb(255, 255, 255);
 
 .links a{
 margin-left: 4px;
-color: #85746e;
+color: #0a84db;
 }
