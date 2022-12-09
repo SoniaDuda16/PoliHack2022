@@ -10,9 +10,7 @@
         else{
             include $_SERVER["DOCUMENT_ROOT"]."/views/auth/home.php";
         }
-        else{
-            include $_SERVER["DOCUMENT_ROOT"]."/views/auth/servicii.php";
-        }
+        
     } else {
         include $_SERVER["DOCUMENT_ROOT"]."/views/auth/home.php";
     }
