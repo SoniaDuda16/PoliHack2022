@@ -20,16 +20,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <style>
+        <?php 
+
+        include $_SERVER["DOCUMENT_ROOT"]."/public/lib/owlcarousel/assets/owl.carousel.min.css" ;
+        include $_SERVER["DOCUMENT_ROOT"]."/public/lib/owlcarousel/assets/owl.carousel.min.css";
+        include $_SERVER["DOCUMENT_ROOT"]."/public/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css";
+        include $_SERVER["DOCUMENT_ROOT"]."/public/lib/twentytwenty/twentytwenty.css";
+
+        include $_SERVER["DOCUMENT_ROOT"]."/public/css/bootstrap.min.css";
+        include $_SERVER["DOCUMENT_ROOT"]."/public/css/css/style.css";
+        
+        ?>
+    </style>
+    <!--<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
     <link href="lib/twentytwenty/twentytwenty.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
+     Customized Bootstrap Stylesheet
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    Template Stylesheet
+    <link href="css/style.css" rel="stylesheet"> -->
 </head>
 
 <body>
