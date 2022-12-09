@@ -1,6 +1,6 @@
 <?php
 function isLoggedIn(){
-    return true;
+    return false;
 }
 
 ?>

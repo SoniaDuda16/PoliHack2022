@@ -1,6 +1,7 @@
 <?php
     include $_SERVER['DOCUMENT_ROOT']."/functions/auth.php";
     
+    session_start();
 
     if(isLoggedIn()){
         echo "123";
