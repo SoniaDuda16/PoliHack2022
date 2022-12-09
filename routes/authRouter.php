@@ -1,5 +1,5 @@
 <?php
-    include $_SERVER["DOCUMENT_ROOT"]."/views//auth/partial/header.php";
+    include $_SERVER["DOCUMENT_ROOT"]."/views/auth/partial/header.php";
 
         $request = $_SERVER['REQUEST_URI'];
         //echo $request;
