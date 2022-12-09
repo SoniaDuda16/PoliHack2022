@@ -29,9 +29,11 @@
 						</div>
 						<input type="password" class="form-control" placeholder="pass_word" name="password">
 					</div>
-					<div class="form-group">
+                    <div class="button-wrapper">
+                    <div class="form-group">
 						<input type="submit" value="Create Account" class="btn float-right login_btn">
 					</div>
+                    </div>
 				</form>
 			</div>
 			<div class="card-footer">
