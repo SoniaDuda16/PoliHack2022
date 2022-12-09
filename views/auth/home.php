@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="index.html" class="nav-item nav-link active">Acasă</a>
-                <a href="about.html" class="nav-item nav-link">Despre Noi</a>
+                <a href="/index.php?page=desprenoi" class="nav-item nav-link">Despre Noi</a>
                 <a href="/index.php?page=servicii" class="nav-item nav-link">Servicii</a>
             </div>
             <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Programează-te</a>

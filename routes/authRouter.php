@@ -4,11 +4,14 @@
         if($_GET['page']=="login"){
             include $_SERVER["DOCUMENT_ROOT"]."/views/auth/login.php";
         }
-        if($_GET['page']=="register"){
+        else if($_GET['page']=="register"){
             include $_SERVER["DOCUMENT_ROOT"]."/views/auth/register.php";
         }
-        if($_GET['page']=="servicii"){
+        else if($_GET['page']=="servicii"){
             include $_SERVER["DOCUMENT_ROOT"]."/views/auth/servicii.php";
+        }
+        else if($_GET['page']=="desprenoi"){
+            include $_SERVER["DOCUMENT_ROOT"]."/views/auth/desprenoi.php";
         }
         else{
             include $_SERVER["DOCUMENT_ROOT"]."/views/auth/home.php";
