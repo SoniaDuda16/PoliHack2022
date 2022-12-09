@@ -7,6 +7,9 @@
         if($_GET['page']=="register"){
             include $_SERVER["DOCUMENT_ROOT"]."/views/auth/register.php";
         }
+        if($_GET['page']=="servicii"){
+            include $_SERVER["DOCUMENT_ROOT"]."/views/auth/servicii.php";
+        }
         else{
             include $_SERVER["DOCUMENT_ROOT"]."/views/auth/home.php";
         }
