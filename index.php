@@ -3,9 +3,9 @@
     
     session_start();
 
-    if(isset($_POST['page']) && $_POST['page']=="123"){
+    if(isset($_GET['page']) && $_GET['page']=="login"){
         $_SESSION['user']="123";
-    }else if(isset($_POST['page']) && $_POST['page']=="321"){
+    }else if(isset($_GET['page']) && $_GET['page']=="logout"){
         $_SESSION['user']=null;
     }
     if(isLoggedIn()){
