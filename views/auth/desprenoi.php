@@ -8,10 +8,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="index.html" class="nav-item nav-link">Acasă</a>
-                <a href="about.html" class="nav-item nav-link active">Despre Noi</a>
-                <a href="service.html" class="nav-item nav-link">Servicii</a>
-    
+                <a href="/index.php?page=acasa" class="nav-item nav-link">Acasă</a>
+                <a href="/index.php?page=desprenoi" class="nav-item nav-link active">Despre Noi</a>
+                <a href="/index.php?page=servicii" class="nav-item nav-link">Servicii</a>
+            </div>
             <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Programează-te</a>
         </div>
     </nav>
@@ -80,7 +80,7 @@
                 </div> 
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about-1.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="public/img/about-1.jpg" style="object-fit: cover;">
                     </div>
                 </div> 
             </div>
