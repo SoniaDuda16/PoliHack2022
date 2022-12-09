@@ -7,7 +7,7 @@ function isLoggedIn(){
 }
 function logOut(){
     $_SESSION['user'] = null;
-    
+    header("Location: /");
 }
 
 ?>
