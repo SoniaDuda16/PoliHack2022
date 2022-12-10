@@ -70,7 +70,7 @@
                     </div>
                     <div class="card shadow mb-4">
                         <div class="card-body p-5">
-                            <h4 class="text-body fst-italic mb-4">Înregistrează o clinică: </h4>
+                            <h4 class="text-body fst-italic mb-4">Înregistrează o clinică sau un cabinet: </h4>
                             <!-- List with bullets -->
                             <ul class="list-bullets">
                                 <li class="mb-2">Gestionează-ți programările simplu și rapid</li>
@@ -112,7 +112,6 @@
                 <div class="col-md-6 text-center text-md-end">
                     <p class="mb-0">Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a><br>
                         Distributed by <a class="text-white border-bottom" href="https://themewagon.com">ThemeWagon</a>          
-                    
                     </p>
                 </div>
             </div>
