@@ -42,7 +42,7 @@
                             
                         </div>
                         <a class="btn btn-light" href="">Găsește</a>
-                    </div>s
+                    </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
                     <div class="bg-secondary d-flex flex-column p-5 mb-5"  style="height: 300px">
