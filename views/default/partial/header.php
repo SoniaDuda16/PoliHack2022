@@ -56,11 +56,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="/index.php?page=acasa" class="nav-item nav-link active">Acasă</a>
-                <a href="/index.php?page=desprenoi" class="nav-item nav-link">Despre Noi</a>
-                <a href="/index.php?page=servicii" class="nav-item nav-link" style="margin-right:10px;">Servicii</a>
+                <a href="/index.php?page=home" class="nav-item nav-link <?php if(!isset($_GET['page']) || (isset($_GET['page']) && $_GET['page']!="specialitati" && $_GET['page']!="programari" && $_GET['page']!="inscrieclinica")){ echo "active";} ?>">Acasă</a>
+                <a href="/index.php?page=specialitati" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="specialitati"){ echo "active";} ?>">Specialitati</a>
+                <a href="/index.php?page=programari" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="programari"){ echo "active";} ?>">Programari</a>
+                <a href="/index.php?page=inscrieclinica" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="inscrieclinica"){ echo "active";} ?>" style="margin-right:10px;">Inscrie o clinică</a>
             </div>
-            <h4 class="nav-item active" style="padding-top:5px;"><b><?php echo $_SESSION['fullname']; ?></b></h4>
+            <h4 class="nav-item active" style="padding-top:6px;"><b><?php echo $_SESSION['fullname']; ?></b></h4>
             <a href="/index.php?page=logout" class="btn btn-primary py-2 px-4 ms-3">Logout</a>
         </div>
     </nav>
