@@ -10,7 +10,7 @@
 			</div>
       
 			<div class="card-body">
-				<form action = "/index.php?page=register?try=reg" method = "POST">
+				<form action = "/index.php?page=register&try=reg" method = "POST">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
