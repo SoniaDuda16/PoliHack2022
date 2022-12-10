@@ -16,13 +16,27 @@ body {
 }
 
 .card {
-  height: 550px;
-  margin-top: 30px;
-  margin-bottom: auto;
+  margin-bottom: auto; 
+  margin: auto;
   width: 400px;
   padding: 30px;
   background-color: #212e649d !important;
+}
 
+.card-log{
+    transform: translateY(20vh);
+}
+
+.card-reg{
+    transform: translateY(5vh);
+}
+
+.card-wrapper{
+    margin: 0 auto;
+    float: none;
+    display: flex;
+    align-self: center; 
+    align-items: center !important;
 }
 
 .error{
