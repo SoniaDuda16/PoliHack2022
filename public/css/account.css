@@ -1,0 +1,30 @@
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.buletin{
+    padding: 10px;
+    display: flex;
+    transform: translateY(5vw);
+    border-radius: 5px;
+    width: 50vw;
+    height: 45vh;
+    background-color: #BAD4FF;
+    box-shadow: 10px 10px 15px 2px  #091e3e82;
+}
+
+.poza{
+   width: fit-content;
+   margin-right: 20px;
+}
+
+.home{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #f67e57;
+    font-size: 25px;
+  }

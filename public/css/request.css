@@ -37,3 +37,14 @@
   font-weight: bold;
   color: #08a2da;
 }
+
+  
+.bifa1{
+  cursor: pointer;
+  color: #009a00 !important;
+}
+
+.bifa0{
+  cursor: pointer;
+  color: #db0000 !important; 
+}
