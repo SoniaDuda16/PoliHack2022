@@ -8,31 +8,30 @@
 				<h3>Sign Up</h3>
 			</div>
 			<div class="card-body">
-				<form action = "signin.php" method = "post">
+				<form action = "/index.php?page=register" method = "POST">
                     <div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="e_mail" name="email">
-						
+						<input type="text" class="form-control" placeholder="email" name="email">
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="user_name" name="username">
+						<input type="text" class="form-control" placeholder="username" name="username">
 						
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="pass_word" name="password">
+						<input type="password" class="form-control" placeholder="password" name="password">
 					</div>
                     <div class="button-wrapper">
-                    <div class="form-group">
-						<input type="submit" value="Create Account" class="btn float-right login_btn">
-					</div>
+						<div class="form-group">
+							<input type="submit" value="Create Account" class="btn float-right login_btn">
+						</div>
                     </div>
 				</form>
 			</div>

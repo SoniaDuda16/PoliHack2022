@@ -74,8 +74,8 @@ border:0 !important;
 
 .button-wrapper{
     display: flex;
-    justify-content: right;
-    transform: translateX(-2px);
+    justify-content: center;
+    /* transform: translateX(-2px); */
 }
 
 input:focus{
