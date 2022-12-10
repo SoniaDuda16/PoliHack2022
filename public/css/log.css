@@ -15,6 +15,11 @@ body {
   align-content: center;
 }
 
+.error{
+    color:#f67e57;
+    text-align: center;
+}
+
 .card {
   height: 550px;
   margin-top: 30px;
