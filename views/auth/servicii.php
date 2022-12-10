@@ -50,8 +50,8 @@
     <!-- Hero End -->
 
 
-    <!-- Service Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+   <!-- Service Start -->
+   <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row g-5 mb-5">
                 <div class="col-lg-5 wow zoomIn" data-wow-delay="0.3s" style="min-height: 400px;">
@@ -110,7 +110,7 @@
                 <div class="col-lg-5 service-item wow zoomIn" data-wow-delay="0.9s">
                     <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
                         <h3 class="text-white mb-3">Descoperă toate serviciile pe care ți le oferim</h3>
-                        <p class="text-white mb-3">Programează-te acum</p>
+                        <a href="/index.php?page=register" class="btn btn-border-white btn-primary py-2 px-4 ms-3">Programează-te</a>
                         <h2 class="text-white mb-0"></h2>
                     </div>
                 </div>
@@ -120,19 +120,17 @@
     </div>
     <!-- Service End -->
     
-
+<!-- Footer Start -->
     
-
-    <!-- Footer Start -->
-    <div class="container-fluid text-light py-2" style="background: #051225;">
+<div class="container-fluid text-light py-2" style="background: #051225;">
         <div class="container">
             <div class="row g-0">
                 <div class="col-md-6 text-center text-md-start">
                     <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#">Your Site Name</a>. All Rights Reserved.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0"><a class="text-white border-bottom" href="https://htmlcodex.com"></a><br>
-                        <a class="text-white border-bottom" href="https://themewagon.com"></a>          
+                    <p class="mb-0">Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a><br>
+                        Distributed by <a class="text-white border-bottom" href="https://themewagon.com">ThemeWagon</a>          
                     
                     </p>
                 </div>

@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="public/css/log.css">
 
 <div class="container">
-	<div class="d-flex justify-content-center h-100">
+	<div class="d-flex justify-content-center h-100 card-wrapper card-reg">
 		<div class="card">
 			<div class="card-header">
 				<h3>Sign Up</h3>
