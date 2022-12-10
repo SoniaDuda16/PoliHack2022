@@ -9,29 +9,30 @@
 			</div>
 
 			<div class="card-body">
-				<form novalidate action = "signin.php" method = "post">
+				<form novalidate action = "index.php?page=login&try=log" method = "post">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-user"></i></span>
+							<span class="input-group-text"><i class="fas fa-user-check"></i></span>
 						</div>
 						<input type="text" class="form-control" placeholder="user_name" name="username" required>
 					</div>
 
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
+							<span class="input-group-text"><i class="fas fa-lock"></i></span>
 						</div>
 						<input type="password" class="form-control" placeholder="pass_word" name="password" required>
 					</div>
 
-					<div class="row align-items-center remember">
-						<input type="checkbox">Remember Me
-					</div>
-
-					<div class="form-group">
-						<input type="submit" value="Login" class="btn float-right login_btn">
+					<div class="button-wrapper">
+						<div class="form-group">
+							<input type="submit" value="Login" class="btn float-right login_btn" >
+						</div>
 					</div>
 				</form>
+				<div class="error">
+					gresit coaie
+				</div>
 			</div>
 
 			<div class="card-footer">
