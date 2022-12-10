@@ -81,4 +81,11 @@ function showClinicsEmergency($dbC){
     }
 }
 
+function showProgramari(){
+    $result = mysqli_query($_SESSION['connection'], "SELECT programari.id,data,ora,name,phone,specializare FROM programari JOIN clinics ON programari.idclinic = clinics.id");
+    include_once $_SERVER['DOCUMENT_ROOT']."/models/programare.php";
+    while($res = mysqli_fetch_row($result)){
+        showProgramare($res[0], $res[1], $res[2], $res[3], $res[4], $res[5]);
+    }
+}
 ?>
