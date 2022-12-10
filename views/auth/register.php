@@ -3,9 +3,6 @@
 <link rel="stylesheet" type="text/css" href="public/css/log.css">
 
 <div class="container">
-	<div class="error">
-		
-	</div>
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
 			<div class="card-header">
@@ -59,7 +56,7 @@
 
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					Have an account?<a href="login.php">Sign In</a>
+					Have an account?<a href="index.php?page=login">Sign In</a>
 				</div>
 			</div>
 		</div>

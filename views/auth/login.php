@@ -1,6 +1,5 @@
-
-	<!--Custom styles-->
-	<link rel="stylesheet" type="text/css" href="public/css/log.css">
+<!--Custom styles-->
+<link rel="stylesheet" type="text/css" href="public/css/log.css">
 
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
@@ -8,7 +7,7 @@
 			<div class="card-header">
 				<h3>Sign In</h3>
 			</div>
-      
+
 			<div class="card-body">
 				<form novalidate action = "signin.php" method = "post">
 					<div class="input-group form-group">
@@ -37,7 +36,7 @@
 
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="register.php">Sign Up</a>
+					Don't have an account?<a href="index.php?register.php">Sign Up</a>
 				</div>
 				<div class="d-flex justify-content-center links">
 					<a href="#">Forgot your password?</a>
