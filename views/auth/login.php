@@ -14,14 +14,14 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user-check"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="user_name" name="username" required>
+						<input type="text" class="form-control" placeholder="Username" name="username" required>
 					</div>
 
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-lock"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="pass_word" name="password" required>
+						<input type="password" class="form-control" placeholder="Password" name="password" required>
 					</div>
 
 					<div class="button-wrapper">
@@ -30,17 +30,16 @@
 						</div>
 					</div>
 				</form>
-				<div class="error">
-					gresit coaie
-				</div>
+				<?php if(isset($message) && $message!= "") { ?>
+					<div class="error">
+						<?php echo $message; ?>
+					</div>
+				<?php } ?>
 			</div>
 
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
 					Don't have an account?<a href="index.php?page=register">Sign Up</a>
-				</div>
-				<div class="d-flex justify-content-center links">
-					<a href="#">Forgot your password?</a>
 				</div>
 			</div>
 		</div>

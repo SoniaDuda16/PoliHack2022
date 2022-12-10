@@ -52,9 +52,11 @@
 						</div>
          			  </div>
 				</form>
-				<div class="error">
-					gresit coaie
-				</div>
+				<?php if(isset($message) && $message!= "") { ?>
+					<div class="error">
+						<?php echo $message; ?>
+					</div>
+				<?php } ?>
 			</div>
 
 			<div class="card-footer">
