@@ -56,7 +56,7 @@
             <div class="row g-5 mb-5">
                 <div class="col-lg-5 wow zoomIn" data-wow-delay="0.3s" style="min-height: 400px;">
                     <div class="container position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="img/doc.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="public/img/doc.jpg" style="object-fit: cover;">
                         
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
                             <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="img/service-2.jpg" alt="">
+                                <img class="img-fluid" src="public/img/service-2.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
                                 <h5 class="m-0">Stomatologie</h5>
@@ -90,7 +90,7 @@
                     <div class="row g-5">
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.3s">
                             <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="img/derma.jpg" alt="">
+                                <img class="img-fluid" src="public/img/derma.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
                                 <h5 class="m-0">Dermatologie</h5>
@@ -98,7 +98,7 @@
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
                             <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="img/familie.jpg" alt="">
+                                <img class="img-fluid" src="public/img/familie.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
                                 <h5 class="m-0">Medicină de familie</h5>
