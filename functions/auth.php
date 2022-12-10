@@ -10,12 +10,12 @@ function tryToLogin($user, $password, $dbC){
     if($user == null || $password == null){
         return "Invalid credentials";
     }
-    $res = mysqli_query($_SESSION['connection'], "SELECT password,fullname FROM ".$dbC->db_usersTable." WHERE username = '".$user."'");
+    $res = mysqli_query($_SESSION['connection'], "SELECT password,fullname,level FROM ".$dbC->db_usersTable." WHERE username = '".$user."'");
     if(mysqli_num_rows($res) > 0){
         $pwd = mysqli_fetch_row($res);
         if($pwd[0] == md5($password)){
             $_SESSION['user'] = $user;
-            $_SESSION['level'] = 0;
+            $_SESSION['level'] = $pwd[2];
             $_SESSION['fullname'] = $pwd[1];
             //$_SESSION['password'] = $password;
             return "";
