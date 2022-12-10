@@ -13,7 +13,6 @@
             if(isset($_POST['username'])){
                 $message = tryToRegister($_POST['username'], $_POST['email'], $_POST['fullname'], $_POST['password'], $_POST['repassword'], $dbC);
             }
-            echo $message;
         }
     }
     if(isLoggedIn()){
