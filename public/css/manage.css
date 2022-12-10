@@ -1,21 +1,17 @@
-.slider {
-  display: flex;
-  column-gap: 20px;
+.form-control {
+  max-width: 500px;
+  margin-left: 3vw;
 }
 
-.slider,
-h1 {
-  margin-left: 3vw;
+.mb-3:first-child > .form-control {
   margin-top: 3vh;
 }
 
-h1 {
-  color: #1b325e;
+.btn {
+  margin-left: 3vw;
 }
 
-.slider-item {
-  width: 10vw;
-  height: 30vh;
-  border-radius: 6px;
-  box-shadow: 3px 3px 6px 2px #091e3e82;
+h5 {
+  margin-top: 5vh;
+  margin-left: 3vw;
 }
