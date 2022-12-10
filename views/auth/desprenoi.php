@@ -101,7 +101,7 @@
     <!-- About End -->
     
 
-    <!-- Footer Start -->
+    <!-- Footer Start
     
     <div class="container-fluid text-light py-2" style="background: #051225;">
         <div class="container">
@@ -117,8 +117,7 @@
             </div>
         </div>
     </div>
-    <!-- Footer End -->
-
+Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>

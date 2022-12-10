@@ -17,6 +17,4 @@ function dbConnect($dbC){
         echo "No DB connection";
         return false;
 }
-
-
 ?>

@@ -120,7 +120,7 @@
     </div>
     <!-- Service End -->
     
-<!-- Footer Start -->
+<!-- Footer Start
     
 <div class="container-fluid text-light py-2" style="background: #051225;">
         <div class="container">
@@ -137,7 +137,7 @@
             </div>
         </div>
     </div>
-    <!-- Footer End -->
+Footer End -->
 
 
     <!-- Back to Top -->
