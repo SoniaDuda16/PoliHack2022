@@ -2,7 +2,6 @@
 <link rel="stylesheet" type="text/css" href="public/css/log.css">
 
 <div class="container">
-	<div class="d-flex justify-content-center h-100 card-wrapper card-log">
 		<div class="card">
 			<div class="card-header">
 				<h3>Sign In</h3>
@@ -43,5 +42,4 @@
 				</div>
 			</div>
 		</div>
-	</div>
 </div>
