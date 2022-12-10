@@ -13,7 +13,7 @@
                 <a href="/index.php?page=desprenoi" class="nav-item nav-link">Despre Noi</a>
                 <a href="/index.php?page=servicii" class="nav-item nav-link">Servicii</a>
             </div>
-            <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Programează-te</a>
+            <a href="/index.php?page=register" class="btn btn-primary py-2 px-4 ms-3">Programează-te</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -58,8 +58,8 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Ai grijă de tine!</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Găsește rapid serviciile medicale de care ai nevoie</h1>
-                            <a href="appointment.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
-                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            <a href="/index.php?page=login" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Conectează-te</a>
+                            <a href="/index.php?page=register" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Inregistrează-te</a>
                         </div>
                     </div>
                 </div>
