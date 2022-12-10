@@ -24,18 +24,17 @@ function tryToLogin($user, $password, $dbC){
     }
     return "Invalid username";
 }
-function tryToRegister($user, $password, $repassword, $dbC){
-    if($user == null || $password == null || $repassword == null){
+function tryToRegister($user, $email, $fullname, $password, $repassword, $dbC){
+    if($user == null || $password == null || $repassword == null || $email == null || fullname == null){
         return "Please complete all fields";
     }
     if(checkUserExists($user, $dbC)){
         return "The username already exists";
     }
-
     if($password != $repassword){
         return "The passwords don't match";
     }
-    mysqli_query($dbC, "INSERT INTO ".$dbC->db_schema.".".$dbC->db_usersTable."(username, password) VALUES ('".$user."', '".md5($password)."')");
+    mysqli_query($dbC, "INSERT INTO ".$dbC->db_schema.".".$dbC->db_usersTable."(username, email, fullname, password) VALUES ('".$user."', '".$email."','".$fullname."', '".md5($password)."')");
     return "";
 }
 function logout(){
