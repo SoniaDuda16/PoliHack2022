@@ -14,7 +14,7 @@
                 <div class="nav-item dropdown">
                 </div>
             </div>
-            <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Programează-te</a>
+            <a href="index.php?page=register" class="btn btn-primary py-2 px-4 ms-3">Programează-te</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -124,7 +124,7 @@
     
 
     <!-- Footer Start -->
-    <div class="container-fluid text-light py-4" style="background: #051225;">
+    <div class="container-fluid text-light py-2" style="background: #051225;">
         <div class="container">
             <div class="row g-0">
                 <div class="col-md-6 text-center text-md-start">
