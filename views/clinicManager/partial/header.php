@@ -56,12 +56,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                pagina manager;
-                <a href="/index.php?page=home" class="nav-item nav-link active">Acasă</a>
-                <a href="/index.php?page=specialitati" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="specialitati"){ echo "active";} ?>">Specialitati</a>
-                <a href="/index.php?page=programari" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="programari"){ echo "active";} ?>">Programari</a>
+              <h4 class="nav-item " style="padding-top:6px; color: #1b325e !important;"><b>Manager <?php echo $_SESSION['fullname']; ?></b></h4>
             </div>
-           
+          
             <div class="dropdown">
                 <button class="btn btn-primary py-2 ms-3"><?php echo $_SESSION['fullname'];?></button>
                 <div class="dropdown-content">
