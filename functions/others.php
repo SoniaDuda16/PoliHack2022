@@ -11,7 +11,7 @@ function createRequest($name, $address, $phone, $emphone, $dbC){
     $_SESSION['hasRequest'] = 1;
 }
 
-function createClinique($dbC){
+function createClinic($dbC){
     $result = mysqli_query($_SESSION['connection'], "SELECT name, address, phone, idreprez, hasemergency, emergency FROM ".$dbC->db_clinicsReqsTable." WHERE id = ".$_GET['id']);
     $res = mysqli_fetch_row($result);
     $name = $res[0];
@@ -39,6 +39,32 @@ function showRequests($dbC){
         }
         else{
             $x = 0;
+        }
+    }
+}
+
+function showClinics($dbC){
+    $result = mysqli_query($_SESSION['connection'], "SELECT name,address,phone,idreprez FROM ".$dbC->db_clinicsTable);
+
+    include_once $_SERVER['DOCUMENT_ROOT']."/models/clinic.php";
+    while($res = mysqli_fetch_row($result)){
+        $idreprez = $res[3];
+        $res2 = mysqli_query($_SESSION['connection'], "SELECT fullname FROM ".$dbC->db_usersTable." WHERE id = ".$idreprez);
+        $result2 = mysqli_fetch_row($res2);
+        showClinic($res[0], $res[1], $res[2], $result2[0]);
+    }
+}
+
+function showClinicsEmergency($dbC){
+    $result = mysqli_query($_SESSION['connection'], "SELECT name,address,phone,idreprez,hasemergency,emergency FROM ".$dbC->db_clinicsTable);
+
+    include_once $_SERVER['DOCUMENT_ROOT']."/models/clinicEmergency.php";
+    while($res = mysqli_fetch_row($result)){
+        if($res[4] == 1){
+            $idreprez = $res[3];
+            $res2 = mysqli_query($_SESSION['connection'], "SELECT fullname FROM ".$dbC->db_usersTable." WHERE id = ".$idreprez);
+            $result2 = mysqli_fetch_row($res2);
+            showClinicEmergency($res[0], $res[1], $res[5], $result2[0]);
         }
     }
 }

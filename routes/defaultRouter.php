@@ -33,7 +33,7 @@
     }else if($_SESSION['level'] == 2){
         if(isset($_GET['page']) && isset($_GET['id'])){
             if($_GET['page']=="accept"){
-                createClinique($dbC);
+                createClinic($dbC);
             }
         }
         include $_SERVER["DOCUMENT_ROOT"]."/views/admin/partial/header.php";
