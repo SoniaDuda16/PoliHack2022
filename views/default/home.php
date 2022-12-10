@@ -41,7 +41,7 @@
                         <div class="d-flex justify-content-between text-white mb-3">
                             
                         </div>
-                        <a class="btn btn-light" href="">Găsește</a>
+                        <a class="btn btn-light" href="index.php?page=programari">Găsește</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">

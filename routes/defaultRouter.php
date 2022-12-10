@@ -14,6 +14,9 @@
             else if ($_GET['page'] == "urgente"){
                 include $_SERVER["DOCUMENT_ROOT"]."/views/default/urgente.php";
             }
+            else if ($_GET['page'] == "programari"){
+                include $_SERVER["DOCUMENT_ROOT"]."/views/default/programari.php";
+            }
             else {
                 include $_SERVER["DOCUMENT_ROOT"]."/views/default/home.php";
             }
