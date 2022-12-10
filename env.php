@@ -8,9 +8,11 @@
             public $db_name       = "polihack";
         
             public $db_schema     = "public";
+            
             public $db_usersTable = "users";
             public $db_clinicsReqsTable = "clinic_requests";
             public $db_clinicsTable = "clinics";
+            public $db_programari ="programari";
       }
 
 ?>
