@@ -5,7 +5,7 @@
             if($_GET['page']=="home"){
                 include $_SERVER["DOCUMENT_ROOT"]."/views/default/home.php";
             }
-            else if ($_GET['page'] == "inscrieclinica"){
+            else if ($_GET['page'] == "inscrieclinica" && $_SESSION['hasRequest'] == 0){
                 include $_SERVER["DOCUMENT_ROOT"]."/views/default/inscrieclinica.php";
             }
             else if ($_GET['page'] == "clinici"){
@@ -28,6 +28,11 @@
     else if($_SESSION['level'] == 1){
 
     }else if($_SESSION['level'] == 2){
+        if(isset($_GET['page']) && isset($_GET['id'])){
+            if($_GET['page']=="accept"){
+                createClinique($dbC);
+            }
+        }
         include $_SERVER["DOCUMENT_ROOT"]."/views/admin/partial/header.php";
         include $_SERVER["DOCUMENT_ROOT"]."/views/admin/requests.php";
         include $_SERVER["DOCUMENT_ROOT"]."/views/admin/partial/footer.php";

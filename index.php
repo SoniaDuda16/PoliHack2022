@@ -8,6 +8,7 @@
     
     $dbC = new dbCredit();
     dbConnect($dbC);
+    
     $message = "";
     if(!isLoggedIn()){
         if(isset($_GET['page']) && isset($_GET['try']) && $_GET['page'] == "register" && $_GET['try'] == "reg"){
@@ -33,7 +34,7 @@
         if(isset($_GET['page']) && $_GET['page'] == "inscrieclinica" && isset($_GET['try']) && $_GET['try']=="inscr"){
             if(isset($_POST['name'])){
                 //echo "intra";
-                tryToCreateRequest($_POST['name'], $_POST['address'], $_POST['phone'], $_POST['emphone'], $dbC);
+                createRequest($_POST['name'], $_POST['address'], $_POST['phone'], $_POST['emphone'], $dbC);
             }
         }
     }

@@ -59,7 +59,9 @@
                 <a href="/index.php?page=home" class="nav-item nav-link <?php if(!isset($_GET['page']) || (isset($_GET['page']) && $_GET['page']=="home")){ echo "active";} ?>">Acasă</a>
                 <a href="/index.php?page=specialitati" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="specialitati"){ echo "active";} ?>">Specialitati</a>
                 <a href="/index.php?page=programari" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="programari"){ echo "active";} ?>">Programari</a>
-                <a href="/index.php?page=inscrieclinica" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="inscrieclinica"){ echo "active";} ?>" style="margin-right:10px;">Inscrie o clinică</a>
+                <?php if($_SESSION['hasRequest'] == 0){ ?>
+                    <a href="/index.php?page=inscrieclinica" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="inscrieclinica"){ echo "active";} ?>" style="margin-right:10px;">Inscrie o clinică</a>
+                <?php } ?>
             </div>
            
             <div class="dropdown">
