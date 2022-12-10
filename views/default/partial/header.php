@@ -48,12 +48,12 @@
     Spinner End -->
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-        <a href="index.php" class="navbar-brand p-0">
-            <h1 class="m-0 text-primary"><i class="fa fa-tooth me-2"></i>DentCare</h1>
+        <a href="index.php" class="navbar-brand" style="max-width:16vw;">
+            <h1><img src="public/img/logo.jpeg" width="100%" height="100%"></h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="/index.php?page=home" class="nav-item nav-link <?php if(!isset($_GET['page']) || (isset($_GET['page']) && $_GET['page']=="home")){ echo "active";} ?>">Acasă</a>
