@@ -12,7 +12,7 @@
                 <a href="/index.php?page=desprenoi" class="nav-item nav-link active">Despre Noi</a>
                 <a href="/index.php?page=servicii" class="nav-item nav-link">Servicii</a>
             </div>
-            <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Programează-te</a>
+            <a href="index.php?page=register" class="btn btn-primary py-2 px-4 ms-3">Programează-te</a>
         </div>
     </nav>
     <!-- Navbar End -->
