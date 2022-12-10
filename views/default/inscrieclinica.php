@@ -37,10 +37,10 @@
                                     <input required type="text" class="form-control bg-light border-0" name="address" placeholder="Adresă" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input required type="text" class="form-control bg-light border-0" name="phone" placeholder="Număr Telefon" style="height: 55px;">
+                                    <input required type="number" class="form-control bg-light border-0" name="phone" placeholder="Număr Telefon" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0"  name="emphone" placeholder="Număr Telefon Urgență (nu e obligatoriu)" style="height: 55px;">
+                                    <input type="number" class="form-control bg-light border-0"  name="emphone" placeholder="Număr Telefon Urgență (nu e obligatoriu)" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-dark w-100 py-3" type="submit">Adaugă</button>

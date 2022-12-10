@@ -28,6 +28,18 @@ function createClinic($dbC){
     mysqli_query($_SESSION['connection'], "UPDATE ".$dbC->db_usersTable." SET hospid = ".$_GET['id']." WHERE id = ".$idreprez);
 }
 
+function deleteRequest($dbC){
+    $result = mysqli_query($_SESSION['connection'], "SELECT idreprez FROM ".$dbC->db_clinicsReqsTable." WHERE id = ".$_GET['id']);
+    $res = mysqli_fetch_row($result);
+
+    $idreprez = $res[0];
+
+    mysqli_query($_SESSION['connection'], "DELETE FROM ".$dbC->db_clinicsReqsTable." WHERE id = ".$_GET['id']);
+
+    mysqli_query($_SESSION['connection'], "UPDATE ".$dbC->db_usersTable." SET hasRequest = 0 WHERE id = ".$idreprez);
+}
+
+
 function showRequests($dbC){
     $result = mysqli_query($_SESSION['connection'], "SELECT id,name,address,phone,idreprez FROM ".$dbC->db_clinicsReqsTable);
     $x=0;

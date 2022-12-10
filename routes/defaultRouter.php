@@ -37,6 +37,9 @@
             if($_GET['page']=="accept"){
                 createClinic($dbC);
             }
+            else if($_GET['page']=="delete"){
+                deleteRequest($dbC);
+            }
         }
         include $_SERVER["DOCUMENT_ROOT"]."/views/admin/partial/header.php";
         include $_SERVER["DOCUMENT_ROOT"]."/views/admin/requests.php";
