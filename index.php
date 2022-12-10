@@ -8,8 +8,9 @@
     $dbC = new dbCredit();
     dbConnect($dbC);
 
-    if(isset($_GET['page']) && $_GET['page']=="login"){
-        $_SESSION['user']="123";
+    if(isset($_GET['page']) && isset($_GET['try']) && $_GET['page'] == "register" && $_GET['try'] == "reg"){
+        $message = tryToRegister($_POST['username'], $_POST['email'], $_POST['fullname'], $_POST['password'], $_POST['repassword'], $dbC);
+        echo $message;
     }else if(isset($_GET['page']) && $_GET['page']=="logout"){
         $_SESSION['user']=null;
     }
