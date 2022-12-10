@@ -61,9 +61,15 @@
                 <a href="/index.php?page=programari" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="programari"){ echo "active";} ?>">Programari</a>
                 <a href="/index.php?page=inscrieclinica" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="inscrieclinica"){ echo "active";} ?>" style="margin-right:10px;">Inscrie o clinică</a>
             </div>
-            <h4 class="nav-item active" style="padding-top:6px;"><b><?php echo $_SESSION['fullname']; ?></b></h4>
-            <a href="/index.php?page=settings" class="btn btn-primary py-2 ms-3">Contul meu</a>
-            <i onclick="location.href='index.php?page=logout'" style="font-size:20px; cursor:pointer;">Logout</i>
+           
+            <div class="dropdown">
+                <button class="btn btn-primary py-2 ms-3"><?php echo $_SESSION['fullname'];?></button>
+                <div class="dropdown-content">
+                    <a href="/index.php?page=settings">Contul meu</a>
+                    <a href="#">Link 2</a>
+                    <a href="index.php?page=logout">Logout</a>
+                </div>
+            </div>
         </div>
     </nav>
     <!-- Navbar End -->
