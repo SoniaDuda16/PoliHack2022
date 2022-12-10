@@ -12,10 +12,9 @@
         if(isset($_GET['page']) && isset($_GET['try']) && $_GET['page'] == "register" && $_GET['try'] == "reg"){
             if(isset($_POST['username'])){
                 $message = tryToRegister($_POST['username'], $_POST['email'], $_POST['fullname'], $_POST['password'], $_POST['repassword'], $dbC);
-                if($message = ""){
+                if($message == ""){
                     $message = tryToLogin($_POST['username'], $_POST['password'], $dbC);
-                    echo $message;
-                    echo "logged in";
+                    //echo $message;
                 }
             }
             
@@ -23,8 +22,13 @@
         else if(isset($_GET['page']) && isset($_GET['try']) && $_GET['page'] == "login" && $_GET['try'] == "log"){
             if(isset($_POST['username'])){
                 $message = tryToLogin($_POST['username'], $_POST['password'], $dbC);
-                echo $message;
+                //echo $message;
             }
+        }
+    }
+    else{
+        if(isset($_GET['page']) && $_GET['page'] == "logout"){
+            logout();
         }
     }
     if(isLoggedIn()){
