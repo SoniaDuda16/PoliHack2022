@@ -80,7 +80,9 @@ function showClinicsEmergency($dbC){
         }
     }
 }
-
+function createProgramare(){
+    mysqli_query($_SESSION['connection'], "INSERT INTO programari(idclinic,data,ora,specializare,pret) VALUES('".$_POST['idclinic']."', '".$_POST['data']."','".$_POST['ora']."', '".$_POST['specializare']."','".$_POST['pret']."')");
+}
 function showProgramari(){
     $result = mysqli_query($_SESSION['connection'], "SELECT programari.id,data,ora,name,phone,specializare FROM programari JOIN clinics ON programari.idclinic = clinics.id");
     include_once $_SERVER['DOCUMENT_ROOT']."/models/programare.php";
@@ -88,4 +90,5 @@ function showProgramari(){
         showProgramare($res[0], $res[1], $res[2], $res[3], $res[4], $res[5]);
     }
 }
+
 ?>
