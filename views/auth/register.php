@@ -3,7 +3,7 @@
 
 <div class="container">
   <div class="home">
-    <a href="index.php?page=home">HOME</a>
+    <a href="index.php?page=home"><i class="fas fa-home"></i></a>
   </div>
   <div class="card">
     <div class="card-header">
