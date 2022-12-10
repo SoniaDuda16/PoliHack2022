@@ -57,15 +57,27 @@
                         <h5 class="position-relative d-inline-block text-primary text-uppercase">Despre Noi</h5>
                         <h1 class="display-5 mb-0">Rețeaua ta de cabinete medicale disponibilă acum la un click distanță</h1>
                     </div>
-                    <h4 class="text-body fst-italic mb-4">Înregistrează-te acum și: </h4>
-                    <p class="mb-3">Vezi cabinetele disponibile pentru serviciile de care ai nevoie</p>
-                    <p class="mb-3">Sortează programările în funcție de nevoile tale: alege-le pe cele mai rapide sau pe cele mai ieftine</p>
-                    <p class="mb-3">În caz de urgență, ai acces rapid la numerele de telefon destinate acestor situații</p>
-                    <p class="mb-3">Primește alerte în caz de epidemii, ca să te protejezi pe tine și pe cei dragi</p>
-                    <h4 class="text-body fst-italic mb-4">Înregistrează o clinică: </h4>
-                    <p class="mb-3">Adaugă datele disponibile pentru programări</p>
-                    <p class="mb-3">Ai acces mai ușor la pacienți și la fișele medicale</p>
-                    <p class="mb-3">Contribuie la sănătatea publică și trimite alerte când se înregistrează mai multe cazuri de boli transmisibile decât în mod obișnuit</p>
+                    <div class="card shadow mb-4">
+                        <div class="card-body p-5">
+                            <h4 class="text-body fst-italic mb-4">Înregistrează-te acum și: </h4>
+                            <!-- List with bullets -->
+                            <ul class="list-bullets">
+                                <li class="mb-2">Vezi cabinetele disponibile pentru serviciile de care ai nevoie</li>
+                                <li class="mb-2">Sortează programările în funcție de nevoile tale: alege-le pe cele mai rapide sau pe cele mai ieftine</li>
+                                <li class="mb-2">În caz de urgență, ai acces rapid la numerele de telefon destinate acestor situații</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-4">
+                        <div class="card-body p-5">
+                            <h4 class="text-body fst-italic mb-4">Înregistrează-te o clinică: </h4>
+                            <!-- List with bullets -->
+                            <ul class="list-bullets">
+                                <li class="mb-2">Gestionează-ți programările simplu și rapid</li>
+                                <li class="mb-2">Ai acces mai ușor la pacienți și la arhiva de fișe medicale</li>
+                            </ul>
+                        </div>
+                    </div>
                     <!--<div class="row g-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                             <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Award Winning</h5>
@@ -91,7 +103,7 @@
 
     <!-- Footer Start -->
     
-    <div class="container-fluid text-light py-4" style="background: #051225;">
+    <div class="container-fluid text-light py-2" style="background: #051225;">
         <div class="container">
             <div class="row g-0">
                 <div class="col-md-6 text-center text-md-start">
