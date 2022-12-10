@@ -9,7 +9,7 @@
 /* Dropdown Button */
 .dropbtn {
   background-color: #06a3da;
-  color: white;
+  width: 100px;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -17,31 +17,47 @@
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
+  margin-right: 30px;
+  padding: 15px;
   position: relative;
-  display: inline-block;
 }
 
 .dropdown-content {
+  margin-right:-30px;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 16px;
   text-decoration: none;
-  display: block;
+  display: inline-block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content > a:last-child .dropdown-content{
+  left: auto !important;
+  right: 0 !important;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {
+  background-color: #f57e57 ;
+  width: 100%;
+}
 
-.dropdown:hover .dropbtn {background-color: #f57e57;}
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f57e57;
+  width: 100%;
+}
 
 h1,
 h2,

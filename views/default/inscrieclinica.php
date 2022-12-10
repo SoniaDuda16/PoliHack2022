@@ -22,7 +22,7 @@
         <div class="container display-center">
                     <div class="py-5">
                         <h1 class="display-center text-white mb-4">Înregistrează clinici noi</h1>
-                        <h5 class="display-center text-white mb-0">Ia parte la extinderea site-ului nostru și ajută-ne să ne exitendem alături de cei mai buni parteneri pentru clienții noștrii</h5>
+                        <h5 class="display-center text-white mb-0">Ia parte la extinderea site-ului nostru și ajută-ne să ne mărim echipa alături de cei mai buni parteneri pentru clienții noștrii</h5>
                     </div>
                     <br>
                     <br>
@@ -31,16 +31,16 @@
                         <form novalidate action="index.php?page=inscrieclinica&try=inscr" method="POST">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input required type="text" class="form-control bg-light border-0" name="nume" placeholder="Nume Clinică" style="height: 55px;">
+                                    <input required type="text" class="form-control bg-light border-0" name="name" placeholder="Nume Clinică" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input required type="text" class="form-control bg-light border-0" name="adresa" placeholder="Adresă" style="height: 55px;">
+                                    <input required type="text" class="form-control bg-light border-0" name="address" placeholder="Adresă" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input required type="text" class="form-control bg-light border-0" name="telefon" placeholder="Număr Telefon" style="height: 55px;">
+                                    <input required type="text" class="form-control bg-light border-0" name="phone" placeholder="Număr Telefon" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0"  name="telefonurgenta"placeholder="Număr Telefon Urgență (nu e obligatoriu)" style="height: 55px;">
+                                    <input type="text" class="form-control bg-light border-0"  name="emphone" placeholder="Număr Telefon Urgență (nu e obligatoriu)" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-dark w-100 py-3" type="submit">Adaugă</button>

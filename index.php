@@ -2,6 +2,7 @@
     include $_SERVER['DOCUMENT_ROOT']."/functions/auth.php";
     include $_SERVER['DOCUMENT_ROOT']."/env.php";
     include $_SERVER['DOCUMENT_ROOT']."/functions/db.php";
+    include $_SERVER['DOCUMENT_ROOT']."/functions/others.php";
 
     session_start();
     
@@ -28,6 +29,12 @@
     else{
         if(isset($_GET['page']) && $_GET['page'] == "logout"){
             logout();
+        }
+        if(isset($_GET['page']) && $_GET['page'] == "inscrieclinica" && isset($_GET['try']) && $_GET['try']=="inscr"){
+            if(isset($_POST['name'])){
+                //echo "intra";
+                tryToCreateRequest($_POST['name'], $_POST['address'], $_POST['phone'], $_POST['emphone'], $dbC);
+            }
         }
     }
     if(isLoggedIn()){
