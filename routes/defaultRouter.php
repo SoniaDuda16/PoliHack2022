@@ -17,6 +17,9 @@
             else if ($_GET['page'] == "programari"){
                 include $_SERVER["DOCUMENT_ROOT"]."/views/default/programari.php";
             }
+            else if ($_GET['page'] == "programarilemele"){
+                include $_SERVER["DOCUMENT_ROOT"]."/views/default/programarilemele.php";
+            }
             else if ($_GET['page'] == "contulmeu"){
                 include $_SERVER["DOCUMENT_ROOT"]."/views/default/contulmeu.php";
             }
