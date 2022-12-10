@@ -5,7 +5,10 @@
             if($_GET['page']=="home"){
                 include $_SERVER["DOCUMENT_ROOT"]."/views/default/home.php";
             }
-            else{
+            else if ($_GET['page'] == "inscrieclinica"){
+                include $_SERVER["DOCUMENT_ROOT"]."/views/default/inscrieclinica.php";
+            }
+            else {
                 include $_SERVER["DOCUMENT_ROOT"]."/views/default/home.php";
             }
         } else {
