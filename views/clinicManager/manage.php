@@ -2,21 +2,21 @@
 
 <div class="add-zone">
   <h5>Adaugă o nouă dată disponibilă</h5>
-  <form>
+  <form method="post" action="index.php?create=true">
     <div class="mb-3">
-      <input type="date" class="form-control" placeholder="Date">
+      <input name="data" type="date" class="form-control" placeholder="Date">
     </div>
 
     <div class="mb-3">
-      <input type="time" class="form-control" placeholder="Time">
+      <input name ="ora" type="time" class="form-control" placeholder="Time">
     </div>
 
     <div class="mb-3">
-      <input type="number" class="form-control" placeholder="Price">
+      <input name="pret" type="number" class="form-control" placeholder="Price">
     </div>
 
     <div class="mb-3">
-      <input type="text" class="form-control" placeholder="Specializare">
+      <input name="specializare" type="text" class="form-control" placeholder="Specializare">
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>

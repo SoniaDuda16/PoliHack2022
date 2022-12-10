@@ -33,6 +33,11 @@
     }
     else if($_SESSION['level'] == 1){
         include $_SERVER["DOCUMENT_ROOT"]."/views/clinicManager/partial/header.php";
+        if(isset($_GET['create']) && $_GET['create'] == "true"){
+            if(isset($_POST['data'])){
+                createProgramare();
+            }
+        }
         include $_SERVER["DOCUMENT_ROOT"]."/views/clinicManager/manage.php";
         include $_SERVER["DOCUMENT_ROOT"]."/views/clinicManager/partial/footer.php";
     }else if($_SESSION['level'] == 2){
