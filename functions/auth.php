@@ -25,7 +25,7 @@ function tryToLogin($user, $password, $dbC){
     return "Invalid username";
 }
 function tryToRegister($user, $email, $fullname, $password, $repassword, $dbC){
-    if($user == null || $password == null || $repassword == null || $email == null || fullname == null){
+    if($user == null || $password == null || $repassword == null || $email == null || $fullname == null){
         return "Please complete all fields";
     }
     if(checkUserExists($user, $dbC)){
