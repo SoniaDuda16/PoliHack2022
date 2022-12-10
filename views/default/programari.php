@@ -14,7 +14,7 @@
 
     <?php
     include_once $_SERVER['DOCUMENT_ROOT']."/functions/others.php";
-    showProgramari($dbC);
+    showProgramari();
     ?>
     </tbody>
 </table>
