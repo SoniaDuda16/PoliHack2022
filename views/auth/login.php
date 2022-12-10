@@ -36,7 +36,7 @@
 
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="index.php?register.php">Sign Up</a>
+					Don't have an account?<a href="index.php?page=register">Sign Up</a>
 				</div>
 				<div class="d-flex justify-content-center links">
 					<a href="#">Forgot your password?</a>
