@@ -12,6 +12,37 @@
 }
 
 h5 {
-  margin-top: 5vh;
+  margin-top: 3vh;
   margin-left: 3vw;
+}
+
+.see-zone > h1 {
+  margin-top: 3vh;
+  padding-left: 3vw;
+  background-color: rgba(6, 163, 218, 0.85);
+}
+
+.see-appo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2vh;
+  row-gap: 1vw;
+  margin: 3vh 3vw 0;
+}
+
+.see-appo {
+  min-width: 175px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 2px 2px 6px 2px gray;
+  color: #081f3e;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1vw;
+}
+
+.see-appo > h6 {
+  margin-bottom: 20px;
 }
