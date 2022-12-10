@@ -70,7 +70,7 @@
                     </div>
                     <div class="card shadow mb-4">
                         <div class="card-body p-5">
-                            <h4 class="text-body fst-italic mb-4">Înregistrează-te o clinică: </h4>
+                            <h4 class="text-body fst-italic mb-4">Înregistrează o clinică: </h4>
                             <!-- List with bullets -->
                             <ul class="list-bullets">
                                 <li class="mb-2">Gestionează-ți programările simplu și rapid</li>
