@@ -22,7 +22,7 @@
         <div class="container display-center">
                     <div class="py-5">
                         <h1 class="display-center text-white mb-4">Înregistrează clinici noi</h1>
-                        <h5 class="display-center text-white mb-0">Ia parte la extinderea site-ului nostru și ajută-ne să ne exitendem alături de cei mai buni parteneri pentru clienții noștrii</h5>
+                        <h5 class="display-center text-white mb-0">Ia parte la extinderea site-ului nostru și ajută-ne să ne mărim echipa alături de cei mai buni parteneri pentru clienții noștrii</h5>
                     </div>
                     <br>
                     <br>
