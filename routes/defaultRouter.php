@@ -17,7 +17,7 @@
 
     }else if($_SESSION['level'] == 2){
         include $_SERVER["DOCUMENT_ROOT"]."/views/admin/partial/header.php";
-        
+        include $_SERVER["DOCUMENT_ROOT"]."/views/admin/requests.php";
         include $_SERVER["DOCUMENT_ROOT"]."/views/admin/partial/footer.php";
     }
 ?>
