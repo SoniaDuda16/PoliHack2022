@@ -37,6 +37,9 @@
                 createRequest($_POST['name'], $_POST['address'], $_POST['phone'], $_POST['emphone'], $dbC);
             }
         }
+        if(isset($_GET['page']) && isset($_GET['take']) && $_GET['page'] == "programari"){
+            takeProgramare();
+        }
     }
     if(isLoggedIn()){
         //echo "123";

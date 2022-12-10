@@ -7,7 +7,7 @@ function showProgramare($idprogramare, $data, $ora, $clinic, $phone, $specializa
         <td><?php echo $clinic; ?></td>
         <td><?php echo $phone; ?></td>
         <td><?php echo $specializare; ?></td>
-        <th><button action="index.php?page=programari&take=<?php echo $idprogramare;?>" class="button"> Take </button></th>
+        <th><button onclick="location.href='index.php?page=programari&take=<?php echo $idprogramare;?>'" class="button"> Take </button></th>
     </tr>
 
 <?php } ?>
