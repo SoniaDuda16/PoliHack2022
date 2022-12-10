@@ -17,7 +17,6 @@
                     //echo $message;
                 }
             }
-            
         }
         else if(isset($_GET['page']) && isset($_GET['try']) && $_GET['page'] == "login" && $_GET['try'] == "log"){
             if(isset($_POST['username'])){
