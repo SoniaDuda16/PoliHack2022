@@ -20,7 +20,6 @@
   margin-right: 30px;
   padding: 15px;
   position: relative;
-  display: inline-block;
 }
 
 .dropdown-content {
@@ -50,7 +49,10 @@
   width: 100%;
 }
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
 
 .dropdown:hover .dropbtn {
   background-color: #f57e57;
