@@ -74,7 +74,7 @@
                             <!-- List with bullets -->
                             <ul class="list-bullets">
                                 <li class="mb-2">Gestionează-ți programările simplu și rapid</li>
-                                <li class="mb-2">Ai acces mai ușor la pacienți și la arhiva de fișe medicale</li>
+                                <li class="mb-2">Ai acces mai ușor la pacienți și programări</li>
                             </ul>
                         </div>
                     </div>

@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="section-title mb-5">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">SCele mai căutate servicii...</h5>
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Cele mai căutate servicii...</h5>
                         <h1 class="display-5 mb-0">Găsim cele mai potrivite servicii pentru nevoile tale</h1>
                     </div>
                     <div class="row g-5">
