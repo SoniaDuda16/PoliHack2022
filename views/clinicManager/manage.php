@@ -8,7 +8,7 @@
     </div>
 
     <div class="mb-3">
-      <input name ="ora" type="time" class="form-control" placeholder="Time" required>
+      <input name ="ora" type="time" class="form-control" placeholder="Time" value="16:00" required>
     </div>
 
     <div class="mb-3">
