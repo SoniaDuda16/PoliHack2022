@@ -110,14 +110,12 @@ function showProgramariUser(){
 }
 
 function showProgramariManager(){
-    $result = mysqli_query($_SESSION['connection'], "SELECT data, ora, name, address, phone, specializare, iduser FROM programari JOIN clinics ON programari.idclinic = clinics.id");
-    include_once $_SERVER['DOCUMENT_ROOT']."/models/programareUser.php";
+    $result = mysqli_query($_SESSION['connection'],"SELECT programari.data, programari.ora, users.fullname FROM programari JOIN clinics ON programari.idclinic = clinics.id JOIN users ON programari.iduser = users.id WHERE clinics.idreprez = ".$_SESSION['user_id']);
+    include_once $_SERVER['DOCUMENT_ROOT']."/models/programareManager.php";
     $i = 1;
     while($res = mysqli_fetch_row($result)){
-        if($res[6] == $_SESSION['user_id']){
-            showProgramareUser($i, $res[2], $res[3], $res[4], $res[0], $res[1], $res[5]);
-            $i++;
-        }
+        showProgramareManager($i, $res[0], $res[1], $res[2]);
+        $i++;
     }
 }
 
