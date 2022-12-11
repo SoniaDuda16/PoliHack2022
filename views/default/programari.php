@@ -11,6 +11,7 @@
                 <th>Clinica</th>
                 <th>Telefon Clinica</th>
                 <th>Specializare</th>
+                <th>Preț</th>
                 <th> Rezervă </th>
             </tr>
         </thead>
