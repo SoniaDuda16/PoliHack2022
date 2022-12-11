@@ -10,11 +10,11 @@
                 </th>
                 <th>
                     <div class="info">
-                        <h2> User </h2>
-                        <h6> Name:</h6>
-                        <h6> Email:</h6>
-                        <h6> Telefon:</h6>
-                        <h6> Adresa:</h6>
+                        <h3> Detaliile contului:</h3>
+                        <br>
+                        <h5> <b>Username:</b> <?php echo $_SESSION['user'];?></h5>
+                        <h5> <b>Nume:</b> <?php echo $_SESSION['fullname'];?></h5>
+                        <h5> <b>Email:</b> <?php echo $_SESSION['email'];?> </h5>
                     </div>
                 </th>
             </tr>
