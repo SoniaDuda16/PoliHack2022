@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule (^|/)views(/|$) - [F]
+RewriteRule (^|/)functions(/|$) - [F]
+RewriteRule (^|/)models(/|$) - [F]
+RewriteRule (^|/)routes(/|$) - [F]
