@@ -10,8 +10,9 @@
     display: flex;
     transform: translateY(5vw);
     border-radius: 5px;
-    width: 50vw;
-    height: 45vh;
+    width: fit-content;
+    height: fit-content;
+    padding: 64px;
     background-color: #BAD4FF;
     box-shadow: 10px 10px 15px 2px  #091e3e82;
 }
