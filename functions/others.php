@@ -109,6 +109,16 @@ function showProgramariUser(){
     }
 }
 
+function showProgramariManager(){
+    $result = mysqli_query($_SESSION['connection'],"SELECT programari.data, programari.ora, users.fullname FROM programari JOIN clinics ON programari.idclinic = clinics.id JOIN users ON programari.iduser = users.id WHERE clinics.idreprez = ".$_SESSION['user_id']);
+    include_once $_SERVER['DOCUMENT_ROOT']."/models/programareManager.php";
+    $i = 1;
+    while($res = mysqli_fetch_row($result)){
+        showProgramareManager($i, $res[0], $res[1], $res[2]);
+        $i++;
+    }
+}
+
 function takeProgramare(){
     mysqli_query($_SESSION['connection'], "UPDATE programari SET isfree=0 WHERE id=".$_GET['take']);
     mysqli_query($_SESSION['connection'], "UPDATE programari SET iduser='".$_SESSION['user_id']."' WHERE id=".$_GET['take']);

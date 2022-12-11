@@ -26,11 +26,9 @@
 <div class="see-zone">
   <h1>Programări viitoare</h1>
   <div class="see-appo-wrapper">
-    <div class="see-appo">
-      <h6>Data:</6>
-      <h6>Ora:</6>
-      <h6>Nume client:</6>
-      <h6>Telefon client:</6>
-    </div>
+    <?php 
+      include_once $_SERVER['DOCUMENT_ROOT']."/functions/others.php";
+      showProgramariManager();
+    ?>
   </div>
 </div>
