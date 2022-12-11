@@ -5,7 +5,7 @@ function showRequest($id, $name, $address, $phone, $idreprez, $i){
     if($i == 0){
       ?>
       <tr>
-        <th><?php echo $name; ?></th>
+        <td><?php echo $name; ?></td>
         <td><?php echo $address; ?></td>
         <td><?php echo $phone; ?></td>
         <td><?php echo $idreprez; ?></td>
@@ -16,7 +16,7 @@ function showRequest($id, $name, $address, $phone, $idreprez, $i){
     }
     else{ ?>
       <tr class="active-row">
-        <th><?php echo $name; ?></th>
+        <td><?php echo $name; ?></td>
         <td><?php echo $address; ?></td>
         <td><?php echo $phone; ?></td>
         <td><?php echo $idreprez; ?></td>

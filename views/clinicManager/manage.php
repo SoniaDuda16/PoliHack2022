@@ -4,11 +4,11 @@
   <h5>Adaugă o nouă dată disponibilă</h5>
   <form method="post" action="index.php?create=true">
     <div class="mb-3">
-      <input name="data" type="date" class="form-control" placeholder="Date" required>
+      <input name="data" type="date" class="form-control" required>
     </div>
 
     <div class="mb-3">
-      <input name ="ora" type="time" class="form-control" placeholder="Time" required>
+      <input name ="ora" type="time" class="form-control" value="16:00" required>
     </div>
 
     <div class="mb-3">
