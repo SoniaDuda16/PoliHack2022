@@ -63,7 +63,7 @@
                 <button class="btn btn-primary py-2 ms-3"><?php echo $_SESSION['fullname'];?></button>
                 <div class="dropdown-content">
                     <!--<a href="index.php?page=contulmeu">Contul meu</a>-->
-                    <a href="index.php?page=logout">Logout</a>
+                    <a href="index.php?page=logout">Ieși din cont</a>
                 </div>
             </div>
         </div>

@@ -57,10 +57,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="/index.php?page=home" class="nav-item nav-link <?php if(!isset($_GET['page']) || (isset($_GET['page']) && $_GET['page']=="home")){ echo "active";} ?>">Acasă</a>
-                <a href="/index.php?page=programarilemele" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="programarilemele"){ echo "active";} ?>">Programarile mele</a>
-                <a href="/index.php?page=programari" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="programari"){ echo "active";} ?>">Programeaza-te</a>
+                <a href="/index.php?page=programarilemele" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="programarilemele"){ echo "active";} ?>">Programările mele</a>
+                <a href="/index.php?page=programari" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="programari"){ echo "active";} ?>">Programează-te</a>
                 <?php if($_SESSION['hasRequest'] == 0){ ?>
-                    <a href="/index.php?page=inscrieclinica" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="inscrieclinica"){ echo "active";} ?>" style="margin-right:10px;">Inscrie o clinică</a>
+                    <a href="/index.php?page=inscrieclinica" class="nav-item nav-link <?php if(isset($_GET['page']) && $_GET['page']=="inscrieclinica"){ echo "active";} ?>" style="margin-right:10px;">Înscrie o clinică</a>
                 <?php } ?>
             </div>
            
@@ -68,7 +68,7 @@
                 <button class="btn btn-primary py-2 ms-3"><?php echo $_SESSION['fullname'];?></button>
                 <div class="dropdown-content">
                     <a href="index.php?page=contulmeu">Contul meu</a> 
-                    <a href="index.php?page=logout">Logout</a>
+                    <a href="index.php?page=logout">Ieși din cont</a>
                 </div>
             </div>
         </div>

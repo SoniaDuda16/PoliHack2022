@@ -63,7 +63,7 @@
             </div>-->
             <div class="navbar-nav ms-auto py-0">
                 <h4 class="nav-item " style="padding-top:6px; color:red !important;"><b>Administrator <?php echo $_SESSION['fullname']; ?></b></h4>
-                <a href="/index.php?page=logout" class="nav-item btn btn-primary py-2 ms-3">Logout</a>
+                <a href="/index.php?page=logout" class="nav-item btn btn-primary py-2 ms-3">Ieși din cont</a>
             </div>
         </div>
     </nav>
