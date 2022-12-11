@@ -7,7 +7,7 @@
   </div>
   <div class="card">
     <div class="card-header">
-      <h3>Sign Up</h3>
+      <h3>Înregistează-te</h3>
     </div>
     
     <div class="card-body">
@@ -16,7 +16,7 @@
           <div class="input-group-prepend">
             <span class="input-group-text"><i class="fas fa-user-tag"></i></span>
           </div>
-          <input type="text" class="form-control" placeholder="Username" name="username" required>
+          <input type="text" class="form-control" placeholder="Nume utilizator" name="username" required>
         </div>
 
         <div class="input-group form-group">
@@ -30,26 +30,26 @@
           <div class="input-group-prepend">
             <span class="input-group-text"><i class="fas fa-signature"></i></span>
           </div>
-          <input type="text" class="form-control" placeholder="Fullname" name="fullname" required>
+          <input type="text" class="form-control" placeholder="Nume complet" name="fullname" required>
         </div>
 
         <div class="input-group form-group">
           <div class="input-group-prepend">
             <span class="input-group-text"><i class="fas fa-lock"></i></span>
           </div>
-          <input type="password" class="form-control" placeholder="Password" name="password" required>
+          <input type="password" class="form-control" placeholder="Parolă" name="password" required>
         </div>
 
         <div class="input-group form-group">
           <div class="input-group-prepend">
             <span class="input-group-text"><i class="fas fa-unlock"></i></span>
           </div>
-          <input type="password" class="form-control" placeholder="Repeat password" name="repassword" required>
+          <input type="password" class="form-control" placeholder="Repetă parolă" name="repassword" required>
         </div>
 
               <div class="button-wrapper">
           <div class="form-group">
-            <input type="submit" value="Create Account" class="btn float-right login_btn">
+            <input type="submit" value="Creează" class="btn float-right login_btn">
           </div>
               </div>
       </form>
@@ -62,7 +62,7 @@
 
     <div class="card-footer">
       <div class="d-flex justify-content-center links">
-        Have an account?<a href="index.php?page=login">Sign In</a>
+        Aveți cont?<a href="index.php?page=login">Intră în cont</a>
       </div>
     </div>
   </div>

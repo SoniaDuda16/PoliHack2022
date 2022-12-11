@@ -14,6 +14,22 @@
     justify-content: center;
   }
   
+h3{
+  margin-left: 5vw;
+  color:#091e3e;
+}
+
+.but{
+  color: rgb(100, 110, 110);
+  border: 2px solid #06a3da; /* Add a grey border */
+  border-radius: 10px;
+  margin-bottom: 0px; /* Add some space below the input */
+}
+
+.but1{
+  margin-left: 5vw;
+}
+
   #myUL {
     /* Remove default list styling */
     list-style-type: none;
