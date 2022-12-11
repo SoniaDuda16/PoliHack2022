@@ -1,7 +1,7 @@
 <link href="public/css/search.css" rel="stylesheet">
 <link href="public/css/progr.css" rel="stylesheet">
 
-    <input type="text" id="myInput" onkeyup="searchAppo()" placeholder="Cauta o specializare..">
+    <input type="text" id="myInput" onkeyup="searchAppo()" placeholder="Cauta o specializare.."> 
 
     <table class="styled-table">
         <thead class="head">
@@ -14,46 +14,28 @@
                 <th> Take </th>
             </tr>
         </thead>
-        <tbody>
-            <!-- <tr>
-                <td>Data</td>
-                <td>Ora</td>
-                <td>Clinica</td>
-                <td>Telefon Clinica</td>
-                <td>Specializare</td>
-                <td><li><a href="#">Take</a></li></td>
-            </tr> -->
+        <tbody id="myBody">
             <?php
                 include_once $_SERVER['DOCUMENT_ROOT']."/functions/others.php";
                 showProgramari($dbC);
             ?>
         </tbody>
     </table>
-
-    <!-- <ul id="myUL">
-        <li><a href="#">Billy</a></li>
-        <li><a href="#">Bob</a></li>
-
-        <li><a href="#">Calvin</a></li>
-        <li><a href="#">Christina</a></li>
-        <li><a href="#">Cindy</a></li>
-    </ul> -->
-
 <script>
     function searchAppo() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById('myInput');
+    tbody = document.getElementById('myBody');
     filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName('li');
+    tr = tbody.getElementsByTagName('tr');
   
-    for (i = 0; i < li.length; i++) {
-      a = li[i].getElementsByTagName("a")[0];
-      txtValue = a.textContent || a.innerText;
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName('td')[4];
+      txtValue = td.textContent || td.innerText;
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        li[i].style.display = "";
+        tr[i].style.display = "";
       } else {
-        li[i].style.display = "none";
+        tr[i].style.display = "none";
       }
     }
   }
