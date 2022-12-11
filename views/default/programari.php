@@ -3,15 +3,15 @@
 
     <input type="text" id="myInput" onkeyup="searchAppo()" placeholder="Cauta o specializare.."> 
 
-    <table class="styled-table">
+    <table id="myTable" class="styled-table">
         <thead class="head">
             <tr>
-                <th>Data</th>
-                <th>Ora</th>
+                <th onclick="sortTable(0)">Data</th>
+                <th onclick="sortTable(1)">Ora</th>
                 <th>Clinica</th>
                 <th>Telefon Clinica</th>
                 <th>Specializare</th>
-                <th> Take </th>
+                <th> Rezervă </th>
             </tr>
         </thead>
         <tbody id="myBody">
@@ -21,6 +21,15 @@
             ?>
         </tbody>
     </table>
+    
+<!-- <table id="myTable2">
+<tr>
+
+<th onclick="sortTable(0)">Name</th>
+<th onclick="sortTable(1)">Country</th>
+</tr> -->
+
+
 <script>
     function searchAppo() {
     var input, filter, ul, li, a, i, txtValue;
@@ -39,16 +48,7 @@
       }
     }
   }
-</script>
 
-<!-- <table id="myTable2">
-<tr>
-
-<th onclick="sortTable(0)">Name</th>
-<th onclick="sortTable(1)">Country</th>
-</tr> -->
-
-<script>
 function sortTable(n) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
   table = document.getElementById("myTable2");
